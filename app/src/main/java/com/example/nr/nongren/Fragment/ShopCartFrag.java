@@ -285,8 +285,7 @@ public class ShopCartFrag extends Fragment {
     }
 
     private void initData() {
-
-
+    //此处需要修改，改变数据
         for (int i = 0; i < 15; i++) {
             //提供父列表的数据
             Map<String, Object> parentMap = new HashMap<String, Object>();
