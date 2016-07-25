@@ -8,4 +8,6 @@
     <string name="jiesuan">结算（%s）</string>
     <string name="cart_title_0">购物车(0)</string>
     <string name="cart_title">购物车(%s)</string>
+    <string name="action_paizhao">拍照</string>
+    <string name="action_xuanqu">从手机相册中选取</string>
 </resources>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_paizhao"
+
+
+        android:title="@string/action_paizhao"/>
+    <item
+        android:id="@+id/action_xuanqu"
+
+
+        android:title="@string/action_xuanqu"/>
+
+</menu>

@@ -3,4 +3,1455 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.Toolbar
+        android:background="#ed1941"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+      <TextView
+          android:background="#fffffb"
+          android:id="@+id/tvsearch"
+          android:clickable="true"
+          android:layout_width="350dp"
+          android:layout_height="20dp"
+          android:gravity="center"
+          android:text="芒果"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@mipmap/rice"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="米面粮油"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/rice_btn_all"
+                android:layout_width="0dp"
+                android:text="全部"
+                android:paddingRight="10dp"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_bean"
+                android:layout_width="0dp"
+                android:text="豆类"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_rice"
+                android:layout_width="0dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:text="大米"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_oil"
+                android:background="@drawable/shape"
+                android:layout_width="0dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:text="食用油"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/rice_btn_xiaomi"
+                android:layout_width="0dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:text="小米"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_heizhima"
+                android:layout_width="0dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:text="黑芝麻"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_huasheng"
+                android:layout_width="0dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:text="花生"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_nuomi"
+                android:layout_width="0dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:text="糯米"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/rice_btn_yimi"
+                android:layout_width="0dp"
+                android:text="薏米"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_mianfen"
+                android:layout_width="0dp"
+                android:text="面粉"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_yanmaifen"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:text="燕麦片"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/rice_btn_yumi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="5dp"
+                android:background="@drawable/shape"
+                android:text="玉米"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/ganhuo"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="干货副食"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganhuo_btn_all"
+                    android:layout_width="0dp"
+                    android:text="全部"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_danzhiping"
+                    android:layout_width="0dp"
+                    android:text="蛋制品"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_jungu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="菌菇"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_tiaoweiping"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="调味品"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganhuo_btn_lianzi"
+                    android:layout_width="0dp"
+                    android:text="莲子"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_fentiao"
+                    android:layout_width="0dp"
+                    android:text="粉条"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_baihegan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="百合干"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_fuzhu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="腐竹"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganhuo_btn_huanghuacai"
+                    android:layout_width="0dp"
+                    android:text="黄花菜"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_haidai"
+                    android:layout_width="0dp"
+                    android:text="海带"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_gancai"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="干菜"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_xiagan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="虾干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="4"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganhuo_btn_miantiao"
+                    android:layout_width="0dp"
+                    android:text="面条"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_yugan"
+                    android:layout_width="0dp"
+                    android:text="鱼干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganhuo_btn_mixian"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="米线"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/ganguo"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="干果蜜饯"/>
+        </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganguo_btn_all"
+                    android:layout_width="0dp"
+                    android:text="全部"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_hongzao"
+                    android:layout_width="0dp"
+                    android:text="红枣"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_banli"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="板栗"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_hetao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="核桃"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganguo_btn_putaogan"
+                    android:layout_width="0dp"
+                    android:text="葡萄干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_xingren"
+                    android:layout_width="0dp"
+                    android:text="杏仁"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_songzi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="松子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_lizhigan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="荔枝干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganguo_btn_hamiguagan"
+                    android:layout_width="0dp"
+                    android:text="哈密瓜干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_mihuotaogan"
+                    android:layout_width="0dp"
+                    android:text="猕猴桃干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_wuhuaguogan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="无花果干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/ganguo_btn_lanmeigan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="蓝莓干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:weightSum="4"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/ganguo_btn_zhenzi"
+                    android:layout_width="0dp"
+                    android:text="榛子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/fruit"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="生鲜水果"/>
+            </LinearLayout>
+            <LinearLayout
+
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/fruit_btn_all"
+                    android:layout_width="0dp"
+                    android:text="全部"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_shucai"
+                    android:layout_width="0dp"
+                    android:text="蔬菜"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_meat"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="肉类"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_apple"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="苹果"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/fruit_btn_chengzi"
+                    android:layout_width="0dp"
+                    android:text="橙子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_youzi"
+                    android:layout_width="0dp"
+                    android:text="柚子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_li"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="梨"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_baixiangguo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="百香果"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/fruit_btn_shizi"
+                    android:layout_width="0dp"
+                    android:text="柿子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_mihoutao"
+                    android:layout_width="0dp"
+                    android:text="猕猴桃"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_ningmeng"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="柠檬"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_shiliu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="石榴"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/fruit_btn_orange"
+                    android:layout_width="0dp"
+                    android:text="橘子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_shajiguo"
+                    android:layout_width="0dp"
+                    android:text="沙棘果"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_niuyouguo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="牛油果"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_fanshiliu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="番石榴"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/fruit_btn_yangtao"
+                    android:layout_width="0dp"
+                    android:text="杨桃"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_caomei"
+                    android:layout_width="0dp"
+                    android:text="草莓"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_mangguo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="芒果"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_yingtao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="樱桃"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/fruit_btn_taozi"
+                    android:layout_width="0dp"
+                    android:text="桃子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_lizi"
+                    android:layout_width="0dp"
+                    android:text="李子"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_tiangua"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="甜瓜"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_lizhi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="荔枝"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:weightSum="4"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/fruit_btn_xing"
+                    android:layout_width="0dp"
+                    android:text="杏"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_shuichanpin"
+                    android:layout_width="0dp"
+                    android:text="水产品"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fruit_btn_putao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="葡萄"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/tea"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="茶饮冲剂"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/tea_btn_all"
+                    android:layout_width="0dp"
+                    android:text="全部"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_fengmi"
+                    android:layout_width="0dp"
+                    android:text="蜂蜜"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_hongcha"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="红糖"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_ningmengpian"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="柠檬片"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/tea_btn_juhua"
+                    android:layout_width="0dp"
+                    android:text="菊花"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_jinyinghua"
+                    android:layout_width="0dp"
+                    android:text="金银花"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_meiguihuacha"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="玫瑰花茶"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_gouqi_yacha"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="枸杞芽茶"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/tea_btn_pipahua"
+                    android:layout_width="0dp"
+                    android:text="枇杷花"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_luohanguo"
+                    android:layout_width="0dp"
+                    android:text="罗汉果"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_guihucha"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="桂花茶"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/tea_btn_heyecha"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="荷叶茶"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/tea_btn_sanqihua"
+                    android:layout_width="0dp"
+                    android:text="三七花"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/nurtion"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="滋补营养"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/nurtion_btn_all"
+                    android:layout_width="0dp"
+                    android:text="全部"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_shanyao"
+                    android:layout_width="0dp"
+                    android:text="山药"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_guiyuangan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="桂圆干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_gouqi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="枸杞"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/nurtion_btn_gegenfen"
+                    android:layout_width="0dp"
+                    android:text="葛根粉"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_ajiaogao"
+                    android:layout_width="0dp"
+                    android:text="阿胶糕"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_lingzhi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="灵芝"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_zhusun"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="竹荪"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/nurtion_btn_tianma"
+                    android:layout_width="0dp"
+                    android:text="天麻"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_sanqi"
+                    android:layout_width="0dp"
+                    android:text="三七"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_huangjing"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="黄精"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_oufen"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="藕粉"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/nurtion_btn_zaojiaofen"
+                    android:layout_width="0dp"
+                    android:text="皂角粉"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_danshen"
+                    android:layout_width="0dp"
+                    android:text="丹参"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_taojiao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="桃胶"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_juema"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="蕨麻"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/nurtion_btn_renshen"
+                    android:layout_width="0dp"
+                    android:text="人参"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_dihuang"
+                    android:layout_width="0dp"
+                    android:text="地黄"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_yuzhu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="玉竹"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/nurtion_btn_qita"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="其它"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/rest"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="休闲零食"/>
+            </LinearLayout>
+            <LinearLayout
+
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/rest_btn_all"
+                    android:layout_width="0dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="全部"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_hongshugan"
+                    android:layout_width="0dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="红薯干"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_niulougan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="牛肉干"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_frultguantou"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="水果罐头"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/rest_btn_shibing"
+                    android:layout_width="0dp"
+                    android:text="柿饼"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_shanzha"
+                    android:layout_width="0dp"
+                    android:text="山楂"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_suanzaogao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="酸枣糕"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_heizhi_mahu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:text="黑芝麻糊"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/rest_btn_zaojia_hetao"
+                    android:layout_width="0dp"
+                    android:text="枣夹核桃"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_hongtang_mahua"
+                    android:layout_width="0dp"
+                    android:text="红糖麻花"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_doufugan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="豆腐干"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_mianbao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="面包"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="4"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:id="@+id/rest_btn_qiongguotang"
+                    android:layout_width="0dp"
+                    android:text="琼锅糖"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_tese_taocan"
+                    android:layout_width="0dp"
+                    android:text="特色套装"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/rest_btn_labaicai"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="辣白菜"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/shape"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>
 </LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nr.nongren.Activity.Mine_DaiPay">
+    <LinearLayout
+        android:id="@+id/ll_Pay"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_Payall"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="20dp"
+            android:text="全部"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_Paydai_fukuan"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:text="待付款"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_Pay_pin_tuan"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="拼团中"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_Pay_daifahuo"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="待发货"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_Pay_daishouhuo"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="待收货"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_Pay_daipinjia"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="待评价"
+            android:layout_height="match_parent" />
+
+
+
+
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Pay_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

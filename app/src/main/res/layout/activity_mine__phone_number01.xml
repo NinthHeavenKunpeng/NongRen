@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.nr.nongren.Activity.Mine_PhoneNumber01">
+    <TextView
+        android:textSize="15dp"
+        android:id="@+id/iv_phonenumber"
+        android:gravity="center_horizontal"
+        android:text="已绑定手机号"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:text="12344"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/iv_phonenumber"
+        android:id="@+id/tv_phone_basenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_phoneNumber"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fffffb"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20dp"
+        android:background="@drawable/shape02"
+        android:text="更换绑定手机"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

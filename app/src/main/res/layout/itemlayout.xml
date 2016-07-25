@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/ivfirst"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent">
+          <TextView
+              android:textColor="#130c0e"
+              android:id="@+id/tv_name"
+              android:textSize="15dp"
+              android:layout_weight="3"
+              android:text="稻米"
+              android:layout_width="match_parent"
+              android:layout_height="0dp" />
+            <TextView
+                android:textColor="#130c0e"
+                android:id="@+id/tv_address"
+                android:text="黑龙江"
+                android:textSize="10dp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <RatingBar
+                style="@style/list_ratingbar"
+                android:numStars="5"
+                android:rating="3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:id="@+id/ratingBar"
+                android:layout_weight="2.3" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#130c0e"
+                android:id="@+id/tv_paynumber"
+                android:text="付款"
+                android:textSize="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="#130c0e"
+                android:id="@+id/tv_price"
+                android:text="34.90"
+                android:textSize="12dp"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="100dp">
+        <TextView
+            android:textColor="#130c0e"
+            android:id="@+id/tv_peoplename"
+            android:text="刘学通"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_peopleiv"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="bottom"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        
+
+    </LinearLayout>
+
+</LinearLayout>

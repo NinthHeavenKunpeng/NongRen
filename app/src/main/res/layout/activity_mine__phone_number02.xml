@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Mine_PhoneNumber02">
+
+
+    <EditText
+        android:id="@+id/et_PhoneWillbind"
+        android:hint="请输入您需要绑定的手机号"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_Phone_yanzhenma"
+            android:hint="填写验证码"
+            android:gravity="bottom"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+
+            android:layout_weight="3"
+            android:id="@+id/bt_PhoneGet_yanzhen_ma"
+            android:layout_alignParentBottom="true"
+            android:textColor="#fffffb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:background="@drawable/shape02"
+            android:text="获取验证码"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/bt_Phone_Bind"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fffffb"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20dp"
+        android:background="@drawable/shape02"
+        android:text="绑定"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
