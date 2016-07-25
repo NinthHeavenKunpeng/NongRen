@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nr.nongren.Activity.WhereActivity">
+    <Toolbar
+        android:background="#eb4339"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <TextView
+        android:layout_gravity="center"
+        android:text="配送地址"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </Toolbar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/s1"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown">
+        </Spinner>
+        <Spinner
+            android:id="@+id/s2"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"></Spinner>
+        <Spinner
+            android:id="@+id/s3"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"></Spinner>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="250dp"
+        android:textColor="#fff"
+        android:text="确定"
+        android:layout_gravity="center"
+        android:id="@+id/where_btn"
+        android:background="#eb4339"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

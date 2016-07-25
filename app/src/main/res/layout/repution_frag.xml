@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/repu_iv1"
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/repu_tv1"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:textSize="12sp"
+            android:lines="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/repu_iv2"
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/repu_tv2"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/repu_iv3"
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/repu_tv3"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+</LinearLayout>
