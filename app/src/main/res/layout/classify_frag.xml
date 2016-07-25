@@ -6,13 +6,13 @@
     <android.support.v7.widget.Toolbar
         android:background="#ed1941"
         android:layout_width="match_parent"
-        android:layout_height="30dp">
+        android:layout_height="50dp">
       <TextView
           android:background="#fffffb"
           android:id="@+id/tvsearch"
           android:clickable="true"
           android:layout_width="350dp"
-          android:layout_height="20dp"
+          android:layout_height="30dp"
           android:gravity="center"
           android:text="芒果"/>
 
