@@ -14,7 +14,7 @@ import com.example.nr.nongren.R;
  */
 public class Mine_PayFrag extends Fragment {
 
-
+//支付暂未完成
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
